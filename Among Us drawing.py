@@ -3,6 +3,7 @@
 
 
 import turtle
+
 BODY_COLOR = 'magenta'
 BODY_SHADOW = ''
 GLASS_COLOR = 'skyblue'
@@ -73,6 +74,10 @@ def glass():
         t.circle(90, -55)
         t.right(180)
         t.forward(1)
+        t.right(180)
+        t.circle(10, -65)
+        t.right(180)
+        t.forward(110)
         t.right(180)
 
         #t.right(180)
